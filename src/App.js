@@ -11,8 +11,6 @@ function App (){
    const handleSubmit = async (term)=>{
     console.log("do a search a",term)
      const result = await searchImages(term);
-
-
       setImages(result);
     };
 
